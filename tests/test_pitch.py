@@ -7,9 +7,7 @@ class PitchModelTest(unittest.TestCase):
         self.user_marah = User(username = 'marah',password = 'marah', email = 'maranahuwase12@gmail.com')
         self.new_pitch = Pitch(id=1,pitch_title='Test',pitch_content='This is a test pitch',category="interview",user = self.user_vivi,likes=0,dislikes=0)
 
-    def tearDown(self):
-        Pitch.query.delete()
-        User.query.delete()
+    
 
     def test_check_instance_variables(self):
         self.assertEquals(self.new_pitch.pitch_title,'Test')
