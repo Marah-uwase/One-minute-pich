@@ -20,7 +20,7 @@
 
     </div>
     <div class="row">
-        <h4>Comments</h4>
+        <h4 style="font-family: 'Indie+Flower', cursive;">Comments</h4>
         <hr>
         {% if current_user.is_authenticated %}
             {{ wtf.quick_form(comment_form) }}
