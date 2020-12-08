@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title> One Minute Pitch </title>
-    </head>
-    <body>
-        <!-- Navbar block  --> 
+
+<head>
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        {% extends 'bootstrap/base.html'%}
+
+        <!-- Navbar block  -->
         {% block navbar %}
-            {% include 'navbar.html' %}
+        {% include 'navbar.html' %}
         {% endblock %}
         <!-- Content block -->
+
+        <meta charset="utf-8">
+        <title> One Minute Pitch </title>
+        {%block styles%}
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Ranga" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Ranga" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+            integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+        {%endblock%}
 
         {% block content %}
 
         {% endblock%}
-    </body>
+    </div>
+
+</body>
+
 </html>

@@ -4,6 +4,8 @@
 
 {%block styles%}
     {{ super() }}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright" rel="stylesheet">
@@ -11,7 +13,7 @@
 {%endblock%}
 <!-- Content block -->
 {%block content%}
-<div class="jumbotron text-center" style="background-color:#902D41; color: #fff; padding: 55px 25px; ">
+<div class="jumbotron text-center" style="background-color: #F896D8; color: #fff; padding: 55px 25px; font-family: 'Indie+Flower', cursive; ">
     <h1 class="text-center"style="margin-left:100px">One Minute Pitch</h1>
 </div>
 <div class="container" style="padding-bottom: 20px;">
@@ -37,7 +39,7 @@
         <div class="col-md-4">
             <div class="well well-lg">
                 <h3>Promotion Pitches</h3>
-                <p>Need Promotion? yo welcome</p>
+                <p>Do you really need Promotion? yo welcome</p>
                 <a href="{{url_for('main.promotion_pitches')}}" class="btn btn-primary -center">View</a>
             </div>
         </div>
