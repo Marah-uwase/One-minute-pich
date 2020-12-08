@@ -21,9 +21,9 @@ December 06 2020
 # INSTALLATION TO WORK WITH OneMinutePitch
 
 * You will need Internet connection.
-* This is my project live link: https://marahuwase.herokuapp.com/
+* This is my project live link: 
 * You will also need a terminal with python3.6 installed.
-* You can clone the froject from this link :  https://github.com/Marah-uwase/News-list-app.git
+* You can clone the froject from this link :  https://github.com/Marah-uwase/one-minute-pich.git
   and access my project
 * Clone the project into your terminal
 * Navigate to the virtual environment
